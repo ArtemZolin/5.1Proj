@@ -103,7 +103,6 @@ div .swiper-pagination-bullet {
     height: 12px;
 }
 
-
 article .swiper-horizontal>.swiper-pagination-bullets, 
 .swiper-pagination-bullets.swiper-pagination-horizontal, 
 .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -112,7 +111,7 @@ article .swiper-horizontal>.swiper-pagination-bullets,
     left: 60px;
 }
 
-
+/* Стили для планшета */
 @media (min-width:768px) {
 
     article{
