@@ -47,7 +47,7 @@ article{
     height: 234px; 
 }
 
-ul.brands-list{
+.brands-list{
     display: flex;
     height: 154px;
     min-width: 0;
@@ -58,7 +58,7 @@ li.brands-list__item{
     height: 72px; 
 }
 
-a.brands-list__link{
+.brands-list__link{
     display: flex;
     justify-content: start;
     align-items: center;
@@ -97,7 +97,7 @@ a.brands-list__link{
 
 
 /* Стили для свайпера */
-div .swiper-pagination-bullet {
+ .swiper-pagination-bullet {
     background: #B5B6BC;
     width: 12px;
     height: 12px;
@@ -123,7 +123,7 @@ article .swiper-horizontal>.swiper-pagination-bullets,
         padding-left: 0;
     }
 
-    nav.brands{
+    .brands{
         padding-right: 24px;
     }
 
@@ -132,7 +132,7 @@ article .swiper-horizontal>.swiper-pagination-bullets,
        
     }
 
-     ul.brands-list{
+        .brands-list{
         flex-wrap: wrap;
         justify-content: space-between;
         gap:20px;
@@ -141,7 +141,7 @@ article .swiper-horizontal>.swiper-pagination-bullets,
         height: 180px;
     }  
    
-    li.brands-list__item, a.brands-list__link{
+    .brands-list__item, a.brands-list__link{
         width: 224px;
         height: 72px;
     }
@@ -160,15 +160,15 @@ article .swiper-horizontal>.swiper-pagination-bullets,
         padding-left: 32px;
     }
 
-    nav.brands{
+    .brands{
         padding-right: 32px;
     }
 
-    ul.brands-list{
+    .brands-list{
         column-gap: 32px;
     }
 
-    li.brands-list__item, a.brands-list__link{
+    .brands-list__item, a.brands-list__link{
         width: 240px;
         height: 72px;
     }
